@@ -1,4 +1,6 @@
-#
+def main():
+    convert(input(""))
+
 def convert(str):
     if str == "Hello :)":
         print("Hello 🙂")
@@ -11,7 +13,4 @@ def convert(str):
     return str
 
 
-
-def main():
-    convert(input(""))
 main()
